@@ -77,7 +77,8 @@ section .wrapper {
 .section-letter {
   display: flex;
   position: relative;
-  margin-left: .5rem;
+  margin-left: 1rem;
+  right: 10px;
   padding-top: 0;
   top: -20px;
 }
