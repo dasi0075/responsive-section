@@ -41,6 +41,7 @@ img {
 
 .img-flex img {
   right: 50%;
+  z-index: 1000;
 }
 
 .img-flex2 img {
@@ -48,16 +49,12 @@ img {
 }
 
 section {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-top: 1em;
 }
 
 section h2 {
   font-size: 1.5rem;
-  display: flex;
-  position: relative;
-  top: 90px;
-  margin-left: .5rem;
 }
 
 section p {
@@ -67,18 +64,30 @@ section p {
   margin-left: .5rem;
 }
 
-
-.wrapper {
+section .wrapper {
   margin: 0 auto;
   max-width: 45em;
+  margin-left: .9rem;
+  display: flex;
+  position: relative;
+  top: 90px;
+  background-color: none;
 }
 
 .section-letter {
+  display: flex;
+  position: relative;
+  margin-left: .5rem;
+  padding-top: 0;
+  top: -20px;
+}
 
+p {
+  z-index: 1000;
 }
 
 .section-icon {
-
+  z-index: 1000;
 }
 
 @media only screen and (min-width: 25em) {
