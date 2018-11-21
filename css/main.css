@@ -47,7 +47,13 @@ body {
   width: 50%;
 }
 
+p {
+  margin-top: 0;
+}
 
+h2 {
+  margin-bottom: 0;
+}
 
 @media only screen and (min-width: 25em) {
 
