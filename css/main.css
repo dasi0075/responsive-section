@@ -115,13 +115,13 @@ p {
   }
 
   .img-flex img {
-    width: 15%;
+    width: 14%;
     top: 20px;
     left: 30px;
   }
 
   .img-flex2 img {
-    width: 13%;
+    width: 12%;
     top: 25px;
     left: 500px;
   }
@@ -129,9 +129,9 @@ p {
   .section-letter {
     display: flex;
     position: absolute;
-    top: -100px;
+    top: -130px;
     left: 30px;
-    margin: 5em;
+    margin: 7em;
   }
 
   .wrapper {
@@ -145,7 +145,11 @@ p {
     display: flex;
     position: absolute;
     top: -140px;
-    left: 30px;
+    left: 60px;
+  }
+
+  .section-body {
+    padding-bottom: 3em;
   }
 
 }
