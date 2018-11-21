@@ -68,9 +68,6 @@ h2 {
 
   .section-icon {
     width: 40%;
-  }
-
-  .section-icon {
     margin-left: 3em;
   }
 
@@ -86,6 +83,26 @@ h2 {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  .section-letter {
+    width: 15%;
+  }
+
+  .section-icon {
+    width: 15%;
+    margin-left: 20em;
+  }
+
+  .wrapper {
+    padding-top: 1em;
+    order: -1;
+  }
+
+  .section-body {
+    order: -1;
+    margin: 4em;
+  }
+
 
 }
 
