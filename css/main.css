@@ -90,17 +90,18 @@ h2 {
 
   .section-icon {
     width: 15%;
-    margin-left: 20em;
+    order: 3;
   }
 
   .wrapper {
     padding-top: 1em;
-    order: -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .section-body {
-    order: -1;
-    margin: 4em;
+  width: 48%;
   }
 
 
