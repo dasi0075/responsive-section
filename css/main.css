@@ -35,7 +35,7 @@ body {
   max-width: 45em;
   display: flex;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 1.4rem;
   margin-top: 0;
 }
 
@@ -44,14 +44,15 @@ body {
 }
 
 .section-icon {
-  width: 50%;
+  width: 45%;
+  padding-top: 2em;
 }
 
-p {
+section p {
   margin-top: 0;
 }
 
-h2 {
+section h2 {
   margin-bottom: 0;
 }
 
@@ -103,7 +104,6 @@ h2 {
   .section-body {
   width: 48%;
   }
-
 
 }
 
