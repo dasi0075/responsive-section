@@ -69,7 +69,7 @@ section .wrapper {
   display: flex;
   position: relative;
   top: 100px;
-  background-color: none;
+  background-color: inherit;
 }
 
 .section-letter {
