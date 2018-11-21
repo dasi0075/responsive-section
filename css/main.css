@@ -35,7 +35,7 @@ body {
   max-width: 45em;
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
+  margin: auto;
   margin-left: auto;
   margin-top: 0;
 }
@@ -65,12 +65,11 @@ section h2 {
   }
 
   .section-letter {
-    width: 33.333%;
+    width: 40%;
   }
 
-  .section-icon {
-    width: 33.3333%;
-    margin-left: 3em;
+  .section-body {
+    margin-bottom: 1.4rem;
   }
 
 }
